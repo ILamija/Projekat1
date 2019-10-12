@@ -1,0 +1,277 @@
+body{
+ margin:0;
+ padding: 0;
+ font: 14px/1.5 helvetica;
+ 
+
+}
+.container{
+    width: 60%;
+    margin :0 auto;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+    /* HEADER I NAV */ 
+
+
+header{
+    background-color: black;
+    color: gray; 
+    padding-top:5px;
+    
+}
+
+header ul  {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding:10px 0;
+    align-items: center;
+}
+
+header ul li img {
+    height: 100px;
+    width: 200px;
+}
+header nav ul{
+    margin:0px;
+}
+header nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+header nav ul li a:hover{
+    color: white;
+    border-bottom: 3px solid darkgoldenrod;
+}
+
+    /* PRVI SECTION */ 
+
+#prvisection{
+background-image: url("http://mercredie.com/wp-content/uploads/2012/09/grasse-parfums-molinard-fragonard-galimard.jpg");
+background-repeat: no-repeat;
+background-size: 100%;
+position: relative;
+height: 700px;
+}
+#prvisection form{
+    background-color: white;
+    border-radius: 30px;
+    position: absolute;
+    bottom:25px;
+    left:30%;
+    right: 30%;
+    color:black;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#prvisection form input{
+    color:black;
+    padding:0px 15px;
+    margin: 0px 20px;
+    border:1px solid black;
+}
+
+#prvisection #button{
+    border:none;
+    border-radius: 30px;
+    padding:5px 20px;
+    color:white;
+    background: darkgoldenrod;
+}
+
+
+
+    /* Glavni Section */ 
+
+
+#glavnisection{
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 30px; 
+    margin-bottom:50px;
+}
+.prvimain{
+    height: 400px;
+    display: flex;
+}
+.prvimain img{
+    width: 50%;
+    height: 350px;
+
+}
+.prvimain #tekst1{
+    width: 50%;
+    padding: 0 15px;
+}
+
+.prvimain #tekst1 h1{
+    text-align: center;
+    color: darkgoldenrod;
+    padding-right: 30%;
+    padding-left: 5px;
+}
+.prvimain #tekst1 p{
+    text-align: left;
+    padding-right: 30%;
+    padding-left: 5px;
+}
+
+.drugimain {
+    height: 400px;
+    display: flex;
+}
+.drugimain img{
+    width: 50%;
+    height: 350px;
+}
+.drugimain #tekst2{
+    width: 50%;
+    padding: 0 15px;
+}
+.drugimain #tekst2 h1{
+    color: darkgoldenrod;
+    text-align: center;
+    padding-left: 30%;
+    padding-right: 5px;
+}
+.drugimain #tekst2 p{
+    text-align: right;
+    padding-left: 30%;
+    padding-right: 5px;
+}
+
+
+    /*  Treci Section */
+
+
+.trecisection{
+    background-color: lightgray;
+}
+.trecisection .trecisectioncontent{
+    display: flex;
+}
+.trecisection main{
+    width: 50%;
+    padding:10px;
+    background-color: white;
+    margin:15px;
+    border: none;
+    border-radius: 10px;
+}
+.trecisection .trecisectioncontent p{
+    color:gray;
+    font-size: 15px;
+}
+
+.trecisection .trecisectioncontent h2{
+    text-align: center;
+}
+
+
+    /* Footer */
+
+    footer{
+        background-color: black;
+        padding-top: 30px;
+    }
+    
+    footer table{
+        width: 100%;  
+    }
+    footer tr{
+        align-content: space-between;
+    }
+    footer tr .prvi{
+        color: darkgoldenrod;
+        font-size: 20px;
+        font-weight: 200;
+    }
+    footer td{
+        color:white;
+        width: 350px;
+        padding:2px;
+        text-align: center;
+        
+    }
+    
+    /*workshop page */
+    .drugi{
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80%;
+        height: 600px;
+        color:black;
+    
+    }
+    .drugi hr{
+        width: 100%;
+        border-color: grey;
+        border-width: 1px;
+    }
+    .kolona{
+        float: left;
+      width: 33.33%;
+    }
+    #slika1  {
+        background-image: url("https://www.galimard.com/wp-content/uploads/2018/08/Galimard-L83A3801-550x371.jpg");
+        height: 250px;
+        width: 300px;
+        background-repeat: none;
+     
+    }
+    #slika2 {
+        background-image: url("https://www.galimard.com/wp-content/uploads/2018/08/Galimard-L83A3955-550x371.jpg");
+        height: 250px;
+        width: 300px;
+        background-repeat: none;
+     
+    }
+    #slika3  {
+        background-image: url("https://www.galimard.com/wp-content/uploads/2019/03/SDF-Eze-550x371.jpg");
+        height: 250px;
+        width: 300px;
+        background-repeat: none;
+     
+    }
+    #slika4  {
+        background-image: url("https://www.galimard.com/wp-content/uploads/2018/05/studio1-particuliers-550x371.jpg");
+        height: 250px;
+        width: 300px;
+        background-repeat: none;
+     
+    }
+    #slika5  {
+        background-image: url("https://www.galimard.com/wp-content/uploads/2018/08/Galimard-L83A4172-550x371.jpg");
+        height: 250px;
+        width: 300px;
+        background-repeat: none;
+     
+    }
+    #slika6  {
+        background-image: url("https://www.galimard.com/wp-content/uploads/2018/06/pause-cologne-grasse-groupes-550x371.jpg");
+        height: 250px;
+        width: 300px;
+        background-repeat: none;
+     
+    }
+    .kolona ul{
+        top:30px;
+        list-style-type: none;
+        display: flex;
+        align-content: space-around;
+    }
+    .kolona ul li {
+        padding-left: 2px;
+        padding-right: 2px;
+        border-right: lightgray solid 1px;
+    }
+    /*Private label*/
+    .drugimain video{
+        width: 500px;
+        height: 300px;
+    }
